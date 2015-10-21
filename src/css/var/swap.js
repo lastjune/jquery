@@ -1,7 +1,7 @@
-define(function() {
+define( function() {
 
 // A method for quickly swapping in/out CSS properties to get correct calculations.
-return function swap( elem, options, callback, args ) {
+return function( elem, options, callback, args ) {
 	var ret, name,
 		old = {};
 
@@ -21,4 +21,4 @@ return function swap( elem, options, callback, args ) {
 	return ret;
 };
 
-});
+} );
